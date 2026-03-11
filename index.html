@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <script src="calculadora.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>CALCULADORA DE IMC</h1>
+        <h2>O que é o IMC?</h2>
+        <p>"O diagnóstico de sobrepeso ou obesidade é feito medindo-se o peso e a altura da pessoa e calculando-se o
+            índice de massa corporal (IMC): peso (kg)/altura² (m²)." Fonte: OMS</p>
+
+    </header>
+
+    <section>
+        <label for="peso">Digite o seu peso (kg): </label>
+        <input type="number" id="peso">
+
+        <label for="altura">Digite a sua altura (m): </label>
+        <input type="number" id="altura">
+
+        <p id="resultadoIMC"></p>
+        <p id="classificacaoIMC"></p>
+
+        <!--quando clicar o botão ele vai realizar a função do JS-->
+        <button onclick="calcularIMC()">CALCULAR</button>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - Suellen Lannes. Todos os direitos reservados. </p>
+    </footer>
+</body>
+
+</html>

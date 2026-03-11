@@ -1,0 +1,94 @@
+/*CSS reset*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Palatino LinoType', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: linear-gradient(100deg, #1d1d1f, #8f91a1);
+    min-width: 100vh;
+    align-items: center;
+    padding: 20px;
+}
+
+/*Header*/
+header {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #e9e4e4;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+header p {
+    font-size: 14px;
+    margin-top: 5px;
+    font-style: oblique;
+}
+
+/*Seção*/
+section {
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    display: block;
+    justify-items: center;
+    border-style: inset;
+    border-width: 3px;
+    height: 300px;
+    width: 350px;
+}
+
+section label {
+    display: block;
+    align-content: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #e9e4e4;
+    display: block;
+    justify-items: center;
+}
+
+section input {
+    display: block;
+    justify-items: center;
+    font-size: medium;
+}
+
+section button {
+    font-size: 14px;
+    bottom: 30px;
+    font-style: unset;
+    background-color: rgb(241, 239, 237);
+    border-radius: 7px;
+    display: block;
+    justify-items: center;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+section button:hover {
+    transform: translate(-3px);
+}
+
+section p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #e9e4e4;
+}
+
+
+/*Footer*/
+footer {
+    color: #e9e4e4;
+    text-align: center;
+}
